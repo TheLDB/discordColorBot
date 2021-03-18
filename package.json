@@ -1,0 +1,26 @@
+{
+  "name": "discordcolorbot",
+  "version": "1.0.0",
+  "description": "When you type a command in discord such as color!#hex or color!rgb(a,b,c), it returns an image of the color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLDB/discordColorBot.git"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "Landon Boles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLDB/discordColorBot/issues"
+  },
+  "homepage": "https://github.com/TheLDB/discordColorBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
