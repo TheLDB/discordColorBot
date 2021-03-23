@@ -7,9 +7,24 @@ client.on('ready', () => {
     console.log(`Color Bot is active and logged in as ${client.user.tag}`)
 });
 
+const prefix = 'color!'
+
 client.on('message', msg => {
-    if(msg.content.toLowerCase() === 'ping') {
-        msg.reply('Pong!');
+    // Hex Instance
+    if(msg.content.startsWith(prefix + "#")) {
+        const color = msg.content.split('!');
+        console.log(color[1]);
+    };
+
+    // RGBA Instance
+    if(msg.content.startsWith(prefix + "rgba")) {
+        const color = msg.content.split('!');
+        console.log(color[1]);
+    };
+
+    // Help Command
+    if(msg.content.startsWith(prefix + "help")) {
+
     }
 });
 
