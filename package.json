@@ -4,18 +4,18 @@
   "description": "\"When you type a command in discord such as color!#hex or color!rgb(a,b,c), it returns an image of the color\"",
   "main": "index.js",
   "dependencies": {
-    "delayed-stream": "^1.0.0",
-    "combined-stream": "^1.0.8",
-    "dotenv": "^8.2.0",
     "abort-controller": "^3.0.0",
-    "discord.js": "^12.5.1",
     "asynckit": "^0.4.0",
-    "mime-types": "^2.1.29",
-    "mime-db": "^1.46.0",
-    "setimmediate": "^1.0.5",
-    "node-fetch": "^2.6.1",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
     "event-target-shim": "^5.0.1",
+    "mime-db": "^1.46.0",
+    "mime-types": "^2.1.29",
+    "node-fetch": "^2.6.1",
     "prism-media": "^1.2.8",
+    "setimmediate": "^1.0.5",
     "tweetnacl": "^1.0.3",
     "ws": "^7.4.4"
   },
@@ -28,7 +28,7 @@
     "url": "git+https://github.com/TheLDB/discordColorBot.git"
   },
   "author": "Landon Boles",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheLDB/discordColorBot/issues"
   },
